@@ -1,0 +1,64 @@
+
+  .card{
+    position: relative;
+    }
+  img{
+    display: block;
+    border: 1px solid #f3f2fa;
+    border-radius: 4px;
+    width: 160px;
+    height: 100px;
+    background-position: center;
+    object-fit: fill;
+    }
+  .card .front{
+    transform:rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute; 
+    
+  }
+  .flipped .front{
+    transform: rotateY(0deg);
+    transition-delay: 0s;
+  }
+
+  .card .back{
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+  }
+
+  .flipped .back{
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+  }
+
+  .flipped{
+    overflow: hidden;
+  }
+  @media (max-width: 768px) {
+    .App {
+      max-width: 90%;
+      margin: 10px auto;
+      max-height: 90%;
+    }
+  
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 5px;
+      margin-top: 20px;
+    }
+  
+    .cong {
+      width: 200px;
+      height: 200px;
+    }
+  
+    img {
+      width: 100%;
+      height: 60px;
+    }
+  
+    p, h3 {
+      margin-top: 20px;
+    }
+  }
