@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mind_Game/static/css/main.3ea49a13.css",
+    "main.js": "/Mind_Game/static/js/main.76f33880.js",
+    "index.html": "/Mind_Game/index.html",
+    "main.3ea49a13.css.map": "/Mind_Game/static/css/main.3ea49a13.css.map",
+    "main.76f33880.js.map": "/Mind_Game/static/js/main.76f33880.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ea49a13.css",
+    "static/js/main.76f33880.js"
+  ]
+}
